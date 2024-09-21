@@ -8,11 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		4C404C7F2C97AD72001928B5 /* list_view_learnApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C404C7E2C97AD72001928B5 /* list_view_learnApp.swift */; };
-		4C404C812C97AD72001928B5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C404C802C97AD72001928B5 /* ContentView.swift */; };
+		4C404C812C97AD72001928B5 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C404C802C97AD72001928B5 /* MenuView.swift */; };
 		4C404C832C97AD76001928B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C404C822C97AD76001928B5 /* Assets.xcassets */; };
 		4C404C862C97AD76001928B5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C404C852C97AD76001928B5 /* Preview Assets.xcassets */; };
 		4C404C912C97AD76001928B5 /* list_view_learnTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C404C902C97AD76001928B5 /* list_view_learnTests.swift */; };
 		4C404C9C2C97AD76001928B5 /* list_view_learnUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C404C9B2C97AD76001928B5 /* list_view_learnUITests.swift */; };
+		4C404CC32C9CBD2F001928B5 /* Launch_screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C404CC22C9CBD2F001928B5 /* Launch_screen.swift */; };
+		4C404CC82C9CC109001928B5 /* mainFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C404CC72C9CC108001928B5 /* mainFeed.swift */; };
+		4C9F98552C9CE50B003D07E7 /* Cameraview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9F98542C9CE50B003D07E7 /* Cameraview.swift */; };
+		4C9F985D2C9CE554003D07E7 /* AccountPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9F985C2C9CE554003D07E7 /* AccountPage.swift */; };
+		4C9F98622C9CE58C003D07E7 /* ARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9F98612C9CE58C003D07E7 /* ARView.swift */; };
+		4C9F98752C9CEA96003D07E7 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9F98742C9CEA96003D07E7 /* MenuItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +41,7 @@
 /* Begin PBXFileReference section */
 		4C404C7B2C97AD72001928B5 /* list_view learn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "list_view learn.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C404C7E2C97AD72001928B5 /* list_view_learnApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = list_view_learnApp.swift; sourceTree = "<group>"; };
-		4C404C802C97AD72001928B5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4C404C802C97AD72001928B5 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		4C404C822C97AD76001928B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C404C852C97AD76001928B5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4C404C872C97AD76001928B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,6 +51,12 @@
 		4C404C972C97AD76001928B5 /* list_view learnUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "list_view learnUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C404C9B2C97AD76001928B5 /* list_view_learnUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = list_view_learnUITests.swift; sourceTree = "<group>"; };
 		4C404C9D2C97AD76001928B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C404CC22C9CBD2F001928B5 /* Launch_screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Launch_screen.swift; sourceTree = "<group>"; };
+		4C404CC72C9CC108001928B5 /* mainFeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainFeed.swift; sourceTree = "<group>"; };
+		4C9F98542C9CE50B003D07E7 /* Cameraview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cameraview.swift; sourceTree = "<group>"; };
+		4C9F985C2C9CE554003D07E7 /* AccountPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountPage.swift; sourceTree = "<group>"; };
+		4C9F98612C9CE58C003D07E7 /* ARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARView.swift; sourceTree = "<group>"; };
+		4C9F98742C9CEA96003D07E7 /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,9 +108,16 @@
 			isa = PBXGroup;
 			children = (
 				4C404C7E2C97AD72001928B5 /* list_view_learnApp.swift */,
-				4C404C802C97AD72001928B5 /* ContentView.swift */,
+				4C404C802C97AD72001928B5 /* MenuView.swift */,
+				4C404CC22C9CBD2F001928B5 /* Launch_screen.swift */,
+				4C404CC72C9CC108001928B5 /* mainFeed.swift */,
+				4C9F98612C9CE58C003D07E7 /* ARView.swift */,
+				4C9F98542C9CE50B003D07E7 /* Cameraview.swift */,
+				4C9F985C2C9CE554003D07E7 /* AccountPage.swift */,
 				4C404C822C97AD76001928B5 /* Assets.xcassets */,
+				4C9F98742C9CEA96003D07E7 /* MenuItem.swift */,
 				4C404C872C97AD76001928B5 /* Info.plist */,
+				4C404CCF2C9CE456001928B5 /* Data structures */,
 				4C404C842C97AD76001928B5 /* Preview Content */,
 			);
 			path = "list_view learn";
@@ -128,6 +147,13 @@
 				4C404C9D2C97AD76001928B5 /* Info.plist */,
 			);
 			path = "list_view learnUITests";
+			sourceTree = "<group>";
+		};
+		4C404CCF2C9CE456001928B5 /* Data structures */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Data structures";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,7 +285,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C404C812C97AD72001928B5 /* ContentView.swift in Sources */,
+				4C404CC32C9CBD2F001928B5 /* Launch_screen.swift in Sources */,
+				4C9F98552C9CE50B003D07E7 /* Cameraview.swift in Sources */,
+				4C9F985D2C9CE554003D07E7 /* AccountPage.swift in Sources */,
+				4C404C812C97AD72001928B5 /* MenuView.swift in Sources */,
+				4C9F98622C9CE58C003D07E7 /* ARView.swift in Sources */,
+				4C9F98752C9CEA96003D07E7 /* MenuItem.swift in Sources */,
+				4C404CC82C9CC109001928B5 /* mainFeed.swift in Sources */,
 				4C404C7F2C97AD72001928B5 /* list_view_learnApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -419,6 +451,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"list_view learn/Preview Content\"";
+				DEVELOPMENT_TEAM = 4VV3MP5A22;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "list_view learn/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -440,6 +473,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"list_view learn/Preview Content\"";
+				DEVELOPMENT_TEAM = 4VV3MP5A22;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "list_view learn/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;

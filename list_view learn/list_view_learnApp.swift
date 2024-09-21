@@ -11,7 +11,7 @@ import SwiftUI
 struct list_view_learnApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MenuView()
         }
     }
 }
